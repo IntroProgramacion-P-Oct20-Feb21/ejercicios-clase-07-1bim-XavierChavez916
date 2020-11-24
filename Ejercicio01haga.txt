@@ -1,0 +1,32 @@
+
+Realizar una miniespecificación que permita ingresar 10 jugadores de baloncesto;
+por cada jugador se pide los datos: nombre del jugador, la cantidad de puntos 
+qué anotó en la temporada, la cantidad de faltas de la temporada.
+Generar el siguiente reporte
+Jugador 1	100	10
+Jugador 2	200	25
+Jugador 3	99	33
+Jugador 4	80	41
+Jugador 5	60	50
+
+1. Inicio
+
+2. jugador, x(200)[{1-9},{a-z},{A-Z}, {/}, {BS}]
+3. puntos, i[0,n]
+4. faltas, i[0,n]
+5. cadena_final, x(200)[{1-9},{a-z},{A-Z}, {/}, {BS}]
+6. cadena_final <-- ""
+7. contador, i[0,n] <-- 1
+
+8. Haga hasta
+9. 	Escribir "Ingresar el nombre del jugador"
+10.	Leer jugador
+11.	Escribir "Ingresar la cantidad de puntos que anoto"
+12.	Leer puntos
+13.	Escribir "Ingresar la cantidad de faltas"
+14.	Leer faltas
+15.	cadena_final <-- cadena_final + jugador "\t" + "puntos" + "\t" + "faltas" + "\n"
+16.	contador <-- contador + 1
+17. Fin Haga_Hasta(contador <= 10)
+18. Escribir cadena_final
+19. Fin

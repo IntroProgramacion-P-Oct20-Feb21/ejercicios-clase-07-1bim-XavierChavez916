@@ -5,11 +5,14 @@
 
 1. Inicio
 2. num, i[0, n]
-3. Para(num<--1, num<=10, 2) haga
-4. // empieza en 1, itera hasta que num sea menor o igual a 10, incrementos de 1
-5.     Escribir num
-6. Fin_Para 
-7. Fin
+3. cadena_final, x(200)[{1-9},{a-z},{A-Z}, {/}]
+4. cadena_final <-- ""
+5. Para(num<--1, num<=10, 2) haga
+6. // empieza en 1, itera hasta que num sea menor o igual a 10, incrementos de 1
+7.     cadena_final <-- cadena_final + num + "\n"
+8. Fin_Para
+9. Escribir cadena_final 
+10. Fin
 
 // salida
 // 1
